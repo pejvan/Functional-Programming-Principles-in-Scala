@@ -4,6 +4,8 @@ scalaVersion := "2.11.7"
 
 scalacOptions ++= Seq("-deprecation")
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+
 // grading libraries
 libraryDependencies += "junit" % "junit" % "4.10" % "test"
 
